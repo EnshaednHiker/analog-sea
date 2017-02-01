@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>AnalogSea</title>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="styles/main.css" rel="stylesheet">
@@ -14,6 +15,16 @@
    <form action="/signup/" method='post'>
        <h1>Sign up</h1>
        <label for="email">Email</label>
+       <input type="email" required name="email" placeholder="foo@bar.com" class="inputs border alignment input-border-color">
+       <label for="password">Password</label>
+       <input type="password" name="password" required placeholder="1234passw0rd" class="inputs border alignment input-border-color">
+       <button type="submit" class='border alignment darken'>Sign up</button>
+       <section class="forgot-style">
+           <p><a href="/forgot-password/new" class="forgot-style">Forgot password?</a></p>
+       </section>
    </form>
+   <section>
+       <p >Already have an account? <a href="/login">Log in</a></p>
+   </section>
     </body>
 </html>

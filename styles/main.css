@@ -6,3 +6,11 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #3F94E7;
 }
+header img{
+  height: 35px; 
+  margin-top: 35px; 
+  margin-bottom: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
